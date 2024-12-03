@@ -135,5 +135,8 @@ print("A függőleges oszlop kiválasztása a-tól j-ig és a vízszintes sor pe
 
 játék = True
 while játék == True:
-    bekeres = input("írd be a koordit") 
-      
+    bekeres = input("írd be a koordit: ") 
+    if bekeres == "a_1":
+        a_1 = "x"
+    print(a_1)
+    jatekter()
